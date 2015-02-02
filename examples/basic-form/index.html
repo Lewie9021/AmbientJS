@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script id="test-template" type="text/template">
+            Forename:<br>
+            <input type="text" data-bind="forename,keyup"><br>
+            <br>
+            
+            Surname:<br>
+            <input type="text" data-bind="surname,keyup"><br>
+            <br>
+
+            Gender:<br>
+            <select data-bind="gender,change">
+                <option value="">Select Gender</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select><br><br>
+            
+            <button>Show Model</button>
+        </script>
+        <script type="text/javascript" src="../../lib/jquery-2.1.3.js"></script>
+        <script type="text/javascript" src="../../src/Ambient.js"></script>
+        <script type="text/javascript" src="../../src/Events.js"></script>
+        <script type="text/javascript" src="../../src/Model.js"></script>
+        <script type="text/javascript" src="../../src/View.js"></script>
+        <script type="text/javascript" src="../../src/Controller.js"></script>
+        <script type="text/javascript" src="../../src/Collection.js"></script>
+    </head>
+    <body>
+        <div id="test-content"></div>
+        <script type="text/javascript" src="basic-form.js"></script>
+    </body>
+</html>
